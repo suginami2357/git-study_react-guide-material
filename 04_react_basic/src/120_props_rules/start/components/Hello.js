@@ -1,3 +1,4 @@
+// POINT propsは読み取り専用
 const Hello = (props) => {
   return (
     <div>
