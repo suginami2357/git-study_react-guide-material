@@ -6,6 +6,11 @@
 import "./Child.css";
 
 const Child = () => {
+  const fn = () => "hello";
+  const a = 1 === 1;
+
+  for (let i = 0; i < 5; i++) {}
+
   return (
     <div className="component">
       <h3>式と文</h3>
